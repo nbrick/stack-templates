@@ -1,0 +1,13 @@
+{-# START_FILE package.yaml #-}
+name: {{name}}
+
+dependencies:
+- base
+
+executables:
+  main:
+    main: Main.hs
+
+{-# START_FILE Main.hs #-}
+main :: IO ()
+main = putStrLn "Hello"
