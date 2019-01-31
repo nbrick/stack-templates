@@ -11,3 +11,4 @@ executables:
 {-# START_FILE Main.hs #-}
 main :: IO ()
 main = putStrLn "Hello"
+
